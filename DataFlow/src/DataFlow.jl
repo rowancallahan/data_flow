@@ -3,6 +3,7 @@ module DataFlow
 import YAML
 export glob_wildcards, expand
 
+include("rule_operations.jl")
 
 """
  glob_wildcards(regex_in)
